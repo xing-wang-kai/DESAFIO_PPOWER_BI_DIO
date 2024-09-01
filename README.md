@@ -215,8 +215,29 @@ Modelo relacionamento
 
 ## DESAFIO 006 
 
+Atraves da tabela Financial criar novas tabelas conforme o enunciado para produtos etc.
 
+D_PRODUTO
 
+primeiro extair os dados
+![image](https://github.com/user-attachments/assets/a9d55029-d3df-4287-8e10-00b457cb3fcc)
+Ajustando produtos
+![image](https://github.com/user-attachments/assets/8bf3f47a-7231-41eb-92c0-47644e577da2)
 
+Inserindo INDEX
+
+![image](https://github.com/user-attachments/assets/1039f7f4-065b-4d9a-9dbb-d1a017af83f2)
+
+D_DESCONTOS
+
+Deletar colunas
+
+![image](https://github.com/user-attachments/assets/199680aa-0b00-47fa-a5c7-59f48eb335fd)
+
+![image](https://github.com/user-attachments/assets/76381db2-19b2-44e4-b0f2-9838d6d19008)
+
+![image](https://github.com/user-attachments/assets/c21e3dd3-6b7a-416c-96e7-83343def4280)
+
+![image](https://github.com/user-attachments/assets/9a0f119a-36d6-4c05-b814-4cd525d02823)
 
 
