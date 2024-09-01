@@ -86,6 +86,53 @@ Após algumas tentativas descobir que o erro estava no protocolo SSL que precisa
 Consegui conectar e realizar as querys no sql porém existiu alguns erros nas querys que não executaram pricipalmente no employee deu muito erro 
 ![image](https://github.com/user-attachments/assets/c9a29f85-fa6d-4b87-aebf-312fccb36c17)
 
+Connectando ao PowerBI
+
+![image](https://github.com/user-attachments/assets/35f4c714-6af8-45e8-a940-24c90ee6af1e)
+
+dados connectados:
+1. Verificar cabeçalhos e tipos de dados
+![image](https://github.com/user-attachments/assets/4000ea7b-39ef-4dd3-8dc0-031ed08a5d4c)
+
+2. Alterado tipos monetários para double
+
+   ![image](https://github.com/user-attachments/assets/263e2b04-0fc7-46ef-a862-c7015fcd99ee)
+
+
+3. Modificar valores monetários para tipos double
+    ![image](https://github.com/user-attachments/assets/263e2b04-0fc7-46ef-a862-c7015fcd99ee)
+   
+4. Verificar valores Nulos e análise para remoção
+   Somente 1 campo no sn employer estava null
+   
+5. Os Employer com nulos em Super_snn podem ser gerentes verficiar se existe algum colaborador sem gerentes
+
+   Existe um colaborador sem gerente
+  ![image](https://github.com/user-attachments/assets/c88ac784-e514-49d6-a677-7710efa816a4)
+
+6. verificar se existe departamentos sem gerentes
+
+   Não existem departamentos sem geretnes
+   ![image](https://github.com/user-attachments/assets/20947ef9-9580-4a98-aac2-00ad74afd2ac)
+
+7. se houver departamento sem gerente, suponha que tenho dados e preencher lacunas
+    
+8. verificar se existe numero de horas de projetos
+
+    Existem numero de horas em work_on
+
+    ![image](https://github.com/user-attachments/assets/ff52e739-c8a1-4296-8790-761c7279765b)
+
+9. separar colunas complexas
+
+    Colunas complexas como endereço foram separadas
+    ![image](https://github.com/user-attachments/assets/aa002d68-a345-4862-9be0-f60cf3c03db7)
+
+
+10. mesclar consultas employee e departamento para criar uma tabela employee com nome dos departamentos associados aos colaboradores. A mescla terá como base a tabela employee.
+
+    ![image](https://github.com/user-attachments/assets/800a58f3-2054-46b4-a40f-963044e13d20)
+
 
 
 
