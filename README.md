@@ -134,6 +134,88 @@ dados connectados:
     ![image](https://github.com/user-attachments/assets/800a58f3-2054-46b4-a40f-963044e13d20)
 
 
+## DESAFIO 004 
+
+### MODELO ESTRELA DE RELACIONAMENTo
+
+Criado query sql para modelo strela no workbanch
+
+![image](https://github.com/user-attachments/assets/c4f09f1a-a53a-4a1d-938d-a787af98989f)
+
+QUERY
+
+```sql
+
+-- Criação do banco de dados
+CREATE DATABASE StarSchemaDB;
+
+-- Seleciona o banco de dados para uso
+USE StarSchemaDB;
+
+-- Criação das tabelas de dimensão
+CREATE TABLE Date (
+    DateID INT PRIMARY KEY,
+    Date DATE NOT NULL,
+    Year INT NOT NULL,
+    Month INT NOT NULL,
+    Day INT NOT NULL
+);
+
+CREATE TABLE Customer (
+    CustomerID INT PRIMARY KEY,
+    FirstName VARCHAR(50) NOT NULL,
+    LastName VARCHAR(50) NOT NULL,
+    Email VARCHAR(100),
+    PhoneNumber VARCHAR(15)
+);
+
+CREATE TABLE Product (
+    ProductID INT PRIMARY KEY,
+    ProductName VARCHAR(100) NOT NULL,
+    Category VARCHAR(50) NOT NULL,
+    Price DECIMAL(10, 2) NOT NULL
+);
+
+CREATE TABLE Store (
+    StoreID INT PRIMARY KEY,
+    StoreName VARCHAR(100) NOT NULL,
+    Location VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE Employee (
+    EmployeeID INT PRIMARY KEY,
+    FirstName VARCHAR(50) NOT NULL,
+    LastName VARCHAR(50) NOT NULL,
+    Position VARCHAR(50) NOT NULL
+);
+
+-- Criação da tabela de fatos
+CREATE TABLE Sales (
+    SaleID INT PRIMARY KEY,
+    DateID INT,
+    CustomerID INT,
+    ProductID INT,
+    StoreID INT,
+    EmployeeID INT,
+    Quantity INT NOT NULL,
+    TotalAmount DECIMAL(10, 2) NOT NULL,
+    FOREIGN KEY (DateID) REFERENCES Date(DateID),
+    FOREIGN KEY (CustomerID) REFERENCES Customer(CustomerID),
+    FOREIGN KEY (ProductID) REFERENCES Product(ProductID),
+    FOREIGN KEY (StoreID) REFERENCES Store(StoreID),
+    FOREIGN KEY (EmployeeID) REFERENCES Employee(EmployeeID)
+);
+
+```
+
+Modelo relacionamento
+
+![image](https://github.com/user-attachments/assets/9c7d22e9-d00b-4335-b011-858b458cd98d)
+
+
+## DESAFIO 006 
+
+
 
 
 
