@@ -8,6 +8,7 @@
 - [## DESAFIO 05](#desafio-05)
 - [## DESAFIO 06](#desafio-06)
 - [## DESAFIO 07](#desafio-07)
+- [## DESAFIO 08](#desafio-08)
 
 ## DESAFIO 01
 Primeiro desafio de projeto
@@ -261,5 +262,14 @@ Nesse desafio optei por manter a ordem deixada pela instrutora porém decidi alt
 
 ![image](https://github.com/user-attachments/assets/43b6067c-ff9f-4535-b0b3-27b95cac7f3d)
 
+## DESAFIO 08 
+
+Esse desfafio e um adicional dos dados no desafio 07
+### CAPA
+
+![image](https://github.com/user-attachments/assets/499e04e4-f854-4080-920c-8a5719f7e9e8)
+
+## RELATORIO FLUXO DE VENDAS
+![image](https://github.com/user-attachments/assets/33c2c34b-80d8-4c88-8c6a-f8e776585cf3)
 
 
