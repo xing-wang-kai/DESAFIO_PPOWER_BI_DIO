@@ -241,3 +241,15 @@ Deletar colunas
 ![image](https://github.com/user-attachments/assets/9a0f119a-36d6-4c05-b814-4cd525d02823)
 
 
+## DESAFIO 07
+
+Nesse desafio optei por manter a ordem deixada pela instrutora porém decidi alter os fundos e as cores para ficarem mais fácil de ver uma vez que os tons claros cansam a visão.
+
+![image](https://github.com/user-attachments/assets/ec04d466-2cf4-426b-979f-8b960645e932)
+
+![image](https://github.com/user-attachments/assets/f29afc16-a0d3-498f-9804-63e66ad0fdea)
+
+![image](https://github.com/user-attachments/assets/43b6067c-ff9f-4535-b0b3-27b95cac7f3d)
+
+
+
